@@ -1,6 +1,13 @@
 package com.mycompany.inmutabilidad;
 
 public class Principal {
+    
+    /**
+     * Método inicial que será llamado para toda la aplicación
+     * @param args 
+     * 
+     * Complejidad temporal: O(1) Tiempo constante
+     */
     public static void main(String[] args) {
         Persona homero = new Persona("1234","Homero Simpson", 34, Genero.MASCULINO);
         
